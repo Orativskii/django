@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме в художньому стилі</title>
+  <style>
+
+    .text {
+      margin-left: 10px;
+    }
+    A {
+      color: black;
+      text-decoration: none;
+    }
+
+    .inform {
+      margin: 15px;
+      padding: 15px;
+      background-color: RGBA(230, 250, 218, 0.7);
+      color: black;
+      bottom: 15px;
+    }
+    .leftImg {
+      float:left;
+      margin: 0px 25px 7px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="inform">
+  <div class="inform">
+    <h1>Оратівський Сергій Ігорович</h1>
+    <h2>Технік-програміст</h2>
+    <div class="text">
+      <p><img src="{% static "firstapp\img\photo.jpg" %}" alt="Супер програміст" width="140" height="186" class="leftImg"><b>Занятість:</b> <span>Повна</span></p>
+      <p><b>Графік роботи:</b> <span>Повний день</span></p>
+      <p><b>Готовність до відряджень:</b> <span>ні</span></p>
+      <p><b>Бажана зарплатня:</b> <span>1500$</span></p>
+      <p><b>Телефон:</b> <span>+380 96 (607) 08 36</span></p>
+      <p><b>Електронна пошта:</b> <span><a href="mailto: soratik35@gmail.com">Soratik35@gmail.com</a></span>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="inform">
+    <h3>Особиста інформація</h3>
+    <div class="text">
+      <p><img src="{% static "firstapp\img\1.jpg" %}" alt="Супер програміст" width="170" height="220" class="leftImg"><b>Громадянство:</b> <span>Україна</span></p>
+      <p><b>Місце прожиття:</b> <span>м. Тальне</span></p>
+      <p><b>Переїзд:</b> <span>Можливий</span></p>
+      <p><b>Освіта:</b> <span>Молодший спеціаліст</span></p>
+      <p><b>Дата народження:</b> <span>16 серпня 2001 (19 років)</span></p>
+      <p><b>Стать:</b> <span>Чоловіча</span></p>
+      <p><b>Сімейний стан:</b> <span>Не одружений</span>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="inform">
+    <h3>Досвід роботи</h3>
+    <div class="text">
+      <div>
+        <p><img src="{% static "firstapp\img\none.png" %}" alt="Супер програміст" width="25" height="25" class="leftImg"><b>Відсутній</b></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="inform">
+    <h3>Освіта</h3>
+    <div class="text">
+      <div>
+        <p><img src="{% static "firstapp\img\2.jpg" %}" alt="Супер програміст" width="90" height="126" class="leftImg"><b>Навчальний заклад:</b> <span>Тальнівський будівельно-економічний коледжу. Тальне</span></p>
+        <p><b>Рік закінчення:</b> <span>2020</span></p>
+        <p><b>Спеціальність:</b> <span>Інженерія програмного забезпечення</span></p>
+        <p><b>Форма навчання:</b> <span>Денна</span></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="inform">
+    <h3>Додаткова інформація</h3>
+    <div class="text">
+      <p><img src="{% static "firstapp\img\3.jpg" %}" alt="Супер програміст" width="90" height="126" class="leftImg"><b>Іноземні мови:</b> <span>Англійська (технічна), російська</span></p>
+      <p><b>Комп'ютерні навички:</b> <span>C++, Javascript, Delphi, HTML+CSS.</span></p>
+      <p><b>Наявність водійського посвідчення (категорія):</b> <span>B</span></p>
+      <p><b>Служба в армії:</b> <span>Ні</span></p>
+    </div>
+  </div>
+  <hr>
+  <button class="text"><a href="resumeHEngl">English</a></button>
+</div>
+</body>
+</html>
